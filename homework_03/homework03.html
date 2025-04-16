@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student_registration</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Регистрация студента: </h1>    
+
+  <form action="/register"">
+
+    <h3>Личные данные</h3>
+      <div class="two-elements">
+        <label for="name">Имя: </label>
+        <input id="name" type="text" placeholder="Укажите имя..." required />
+
+        <label for="surname">Фамилия: </label>
+        <input id="surname" type="text" placeholder="Укажите фамилию..." required />
+      </div>      
+
+      <div class="two-elements">
+        <label for="birthday">Дата рождения: </label>
+        <input id="birthday" type="date" required />
+
+        <label for="male">Пол: </label>
+        <input
+            name="gender"
+            id="male"
+            type="radio"
+            required
+        />
+        <label for="male">м</label>
+
+        <input
+            name="gender"
+            id="female"
+            type="radio"
+            required
+        />
+        <label for="female">ж</label>
+      </div>
+  
+    <h3>Адрес</h3>
+      <div class="two-elements">
+        <label for="country">Страна: </label>
+        <input id="country" type="text" placeholder="Укажите страну..." required />
+
+        <label for="city">Город: </label>
+        <input id="city" type="text" placeholder="Укажите город..." required />
+      </div>
+    
+      <div class="two-elements">
+        <label for="street">Улица: </label>
+        <input id="street" type="text" placeholder="Укажите улицу..." required />
+
+        <label for="house-number">№дома: </label>
+        <input id="house-number" type="number" placeholder="Укажите № дома..."  min="1" required/>
+        </span>
+      </div>
+
+    <h3>Контактные данные</h3>
+      <div class="two-elements">
+        <label for="email">Email: </label>
+        <input
+            id="email"
+            type="email"
+            placeholder="Укажите email..."
+            title="Корректный формат: text@mail.de"
+            required
+        />
+
+        <label for="phone">Tел.: </label>
+        <input
+            id="phone"
+            type="tel"
+            placeholder="Укажите ваш мобильный телефон..."
+            title="Формат ввода: +49-171-123-45-67"
+            pattern="\+?[0-9]{2}-?[0-9]{3}-?[0-9]{3}-?[0-9]-?{2}[0-9]-?{2}"
+            required
+        />
+       </div>
+       <hr>
+       
+    <h3>Обучение</h3>
+      <div>  
+          <label for="full-time">Форма обучения: </label>        
+          <input
+              name="study-form"
+              id="full-time"
+              type="radio"
+              required
+          />
+          <label for="full-time">очная </label>
+
+          
+          <input
+              name="study-form"
+              id="part-time"
+              type="radio"
+              required
+          />
+          <label for="part-time">заочная </label>
+      </div>   
+
+      <div class="two-elements">
+        <label for="faculty">Факультет: </label>
+        <select id="faculty" required>
+          <option value="">Выберете факультет...</option>  
+          <option value="IT">Информационных технологий</option>
+          <option value="mathematics">Математики</option>
+          <option value="physics">Физики</option>
+          <option value="economics">Экономики</option>
+        </select> 
+
+        <label for="specialty">Специальность: </label>
+        <select id="specialty" required>
+          <option value="">Выберете специальность...</option>  
+          <option value="it-science">Компьютерные науки</option>
+          <option value="it-cyber">Кибербезопасность</option>
+          <option value="it-engineering">Компьютерная инженерия</option>
+          <option value="m-applied">Прикладная математика</option>
+          <option value="m-statistics">Статистика</option>
+          <option value="m-modeling">Математическое моделирование</option>
+          <option value="p-physic">Физика</option>
+          <option value="p-astro">Астрофизика</option>
+          <option value="p-quant">Квантовая наука и технологии</option>
+          <option value="e-economic">Экономика</option>
+          <option value="e-intern">Международная экономика</option>
+          <option value="e-bank">Банковское дело</option>
+        </select>
+      </div>
+
+
+      <div class="two-elements">
+        <label for="course">Курс: </label>
+        <input id="course" type="number" min="1" max="5" required />
+
+        <label for="group">Группа: </label>
+        <select id="group" required>
+          <option value="">Выберете группу...</option>  
+          <option value="IT-S1">IT-S1</option>
+          <option value="IT-S2">IT-S2</option>
+          <option value="IT-S3">IT-S3</option>
+          <option value="IT-C1">IT-C1</option>
+          <option value="IT-C3">IT-C3</option>
+          <option value="IT-C5">IT-C5</option>
+          <option value="IT-E4">IT-E4</option>
+          <option value="IT-E5">IT-E5</option>
+          <option value="M-A1">M-A1</option>
+          <option value="M-A2">M-A2</option>
+          <option value="M-S3">M-S3</option>
+          <option value="M-S4">M-S4</option>
+          <option value="M-M4">M-M4</option>
+          <option value="M-M5">M-M5</option>
+          <option value="P-P2">P-P2</option>
+          <option value="P-A3">P-A3</option>
+          <option value="P-Q5">P-Q5</option>
+          <option value="E-E1">E-E1</option>
+          <option value="E-IN3">E-IN3</option>
+          <option value="E-B2">E-B2</option>
+        </select>
+      </div>
+      <hr>
+
+    <h3>Льготы</h3>
+      <div>
+        <label for="benefits">Если у вас имеются льготы, то отметьте соответствующее поле : </label>
+        <input
+            id="benefits"
+            type="checkbox"
+        />
+      </div>
+
+      <!-- <div>
+        <label for="file-benefits">Прикрепите подтверждающие документы: </label>
+        <input id="file-benefits" type="file" accept=".pdf,image/*">
+      </div> -->
+
+
+    <div class="btn">
+      <button type="reset">Очистить данные</button>
+      <button type="submit">Сохранить данные</button>
+    </div> 
+  
+  </form>
+</body>
+</html>

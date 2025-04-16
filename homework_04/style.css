@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+header {
+  background-image: url("./images/Coffe.jpg");
+  height: 400px;
+  background-position: center; 
+  background-size: cover; 
+}
+
+section {
+  display: flex;
+}
+
+div {
+  flex: 1; 
+  text-align: center;
+  padding: 10px; 
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(238, 228, 233);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+div:hover {
+    background-color:#d3c7c9;
+    transform: scale(1.02);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #460f0f;
+  text-decoration: underline;
+}
+
+h2{
+  color: #460f0f;
+}

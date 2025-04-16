@@ -1,0 +1,89 @@
+body {
+  background-color: whitesmoke;  
+  background-image: url("https://img.freepik.com/free-photo/girl-standing-holding-notebook-writing_23-2147657135.jpg?t=st=1744299898~exp=1744303498~hmac=f1a3d06293a2d5d3fa592073eb39fdb19c588257dde05e39b02419e54f4fe6b2&w=1380");
+  background-size: cover;
+}
+
+img {
+  position: relative;
+}
+
+form {
+  background-color: rgb(245 245 245);
+  border: 1px solid #cccccc;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+  max-width: 700px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center; 
+  color: #194170; 
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #00000088;
+  font-style: italic;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+div {
+  margin: 5px;
+}
+
+.two-elements {
+  display: flex;
+  gap: 15px;
+}
+
+#name, #surname, #country, #city, #street, #house-number, 
+#email, #phone, #course, #group, #faculty, #specialty 
+{
+  width: 40%;
+  padding: 5px 0 5px 5px; 
+  border-radius: 5px;
+  border: 1px solid #cccccc;  
+}
+
+#full-time, #part-time {
+  font-style: italic;
+}
+
+#birthday {
+  border: 1px solid #cccccc;  
+}
+
+.btn {
+  width: fit-content; /* по содержимому */
+  margin: 20px auto 20px; /*начиная верху, по горизонтали, снизу*/
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 160px;
+}
+
+button[type="reset"] {
+  background-color: #f4e9e2;
+}
+
+button[type="reset"]:hover {
+  background-color: #e1c3b0;
+}
+
+button[type="submit"] {
+  background-color: #e3edf7;
+}
+
+button[type="submit"]:hover {
+  background-color: #b2cee7;
+}

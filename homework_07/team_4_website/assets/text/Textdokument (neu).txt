@@ -1,0 +1,255 @@
+ <main>
+      <h1>Wähle dein Baum-Paket</h1>
+      <div class="wrapper">
+        <div class="card">
+            <div class="top">
+                <a href="/collections/baeume-pflanzen/products/1-baum-pflanzen">
+                    <img
+                    src="https://growmytree.com/cdn/shop/products/Product01_2x_302c91ad-2f71-49cc-b352-94d5211189a2_300x.png?v=1610364149"
+                    alt="1 Baum pflanzen - Tree Friend" />
+                </a>
+            </div>
+            <div class="bottom">
+                <div class="price">
+                    <div><b>4,80</b><br />inkl. MwSt.</div>
+                    <div>4,80 / Baum</div>
+                </div>
+                <div>
+                    <p>Du neutralisierst dauerhaft ca.</p>
+                    <p><b>0,23% deines jährlichen CO2-Ausstoßes</b></p>
+                </div>
+                <div>
+                    <p>
+                    Das entspricht ca.:<br />600 g Rindfleisch oder<br />~22 kg CO2
+                    pro Jahr
+                    </p>
+                </div>
+                
+                <a href="/collections/baeume-pflanzen/products/1-baum-pflanzen">
+                    <div class="btn">Jetzt pflanzen</div>
+                </a>
+                
+            </.div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/4-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product02_2x_efd32340-fb2e-4673-a8dc-3996752ef37e_400x.png?v=1610364380"
+                alt="4 Bäume pflanzen - Tree Lover" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>18,80</b><br />inkl. MwSt.</div>
+                <div>4,70 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>0,91% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />4 Zugfahrten (HAM-MUC) <br>
+                ~88 kg CO2 pro Jahr*
+                </p>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/4-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/11-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product03_2x_a6147c4e-0603-4e3f-9d97-d1c4452088ae_400x.png?v=1610364215"
+                alt="11 Bäume pflanzen - Climate supporters" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>47,80</b><br />inkl. MwSt.</div>
+                <div>4,52 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>2,5% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />1 Flug (MUC-DUS) <br>
+                ~242 kg CO2 pro Jahr*
+                </p>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/11-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/22-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product04_2x_00fde3e2-e0bb-46f0-a904-45730d9e2127_400x.png?v=1610364316"
+                alt="22 Bäume pflanzen - Climate Hero" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>85,00</b><br />inkl. MwSt.</div>
+                <div>3,86 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>5% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />1 Flug (MUC-STO) <br>
+                ~484 kg CO2 pro Jahr*
+                </p>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/22-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/44-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product05_2x_33a23251-fd7b-4fa2-97f5-2a79e50e6d29_400x.png?v=1610364429"
+                alt="44 Bäume pflanzen - Small Forest" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>144,50</b><br />inkl. MwSt.</div>
+                <div>3,28 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>10% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />1 Flug (BER-SVO) <br>
+                ~968 kg CO2 pro Jahr*
+                </p>
+                <br>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/44-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/110-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product06_2x_98f17f2e-4d13-4ef0-9d39-06192d4332ea_400x.png?v=1610364265"
+                alt="110 Bäume pflanzen - Full on Forest" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>299,00</b><br />inkl. MwSt.</div>
+                <div>2,71 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>25% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />- deinem CO2 Ausstoß durch Ernährung & Flugreisen* <br>
+                ~2420 kg CO2 pro Jahr*
+                </p>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/110-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/220-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product07-2_2x_6b51fd34-abf3-4c69-906c-64f3d8d0faf9_400x.png?v=1600253636"
+                alt="220 Bäume pflanzen - Forest Hero" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>479,00</b><br />inkl. MwSt.</div>
+                <div>2,17 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>50% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />- deinem CO2 Ausstoß durch Konsum <br>
+                ~4840 kg CO2 pro Jahr*
+                </p>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/220-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="top">
+            <a href="/collections/baeume-pflanzen/products/440-baum-pflanzen">
+                <img
+                src="https://growmytree.com/cdn/shop/products/Product08-2_2x_0f2dd55c-0211-4df4-9d69-d3562d3ce4a7_400x.png?v=1600253769"
+                alt="440 Bäume pflanzen - Climate Rockstar" />
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="price">
+                <div><b>924,00</b><br />inkl. MwSt.</div>
+                <div>2,10 / Baum</div>
+            </div>
+            <div>
+                <p>Du neutralisierst dauerhaft ca.</p>
+                <p><b>100% deines jährlichen CO2-Ausstoßes</b></p>
+            </div>
+            <div>
+                <p>
+                Das entspricht ca.:<br />- deinem gesamten CO2 Ausstoß <br>
+                ~9680 kg CO2 pro Jahr*
+                </p>
+            </div>
+            
+            <a href="/collections/baeume-pflanzen/products/440-baum-pflanzen">
+                <div class="btn">Jetzt pflanzen</div>
+            </a>
+            
+        </div>
+    </div>
+  </div>
+    </main>

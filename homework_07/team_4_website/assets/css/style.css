@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('../fonts/NeueHaasUnicaW1G-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: Neue Haas Unica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: none;
+    color: #1b342d;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    /* padding: 100px 20px 20px 0; */
+}
+
+header {
+    height: 100px;
+}
+
+
+.green {
+    color: #4F722D;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    /* height: 90; */
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    top: 0;
+    left:0;
+}
+
+.main-menu-left {
+    width:200px;
+}
+
+#menu-img {
+    max-width: 200px;
+}
+
+
+.main-menu-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.main-menu-center a {
+    text-decoration: none;
+    color: black;
+    /* transition: transform 0.3s ease; */
+}
+
+.main-menu-center a:hover {
+    font-weight: bold;
+    /* transform: scale(1.02); */
+}
+
+/* .select-baüme-schenken {
+    display: flex;
+
+} */
+
+.main-menu-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.main-menu-right a {
+    text-decoration: none;
+    color: black;
+    /* transition: transform 0.3s ease; */
+}
+
+.main-menu-right a:hover {
+    font-weight: bold;
+    /* transform: scale(1.02); */
+}
+
+.select-baüme-schenken{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 650px;
+    background-color: white;
+    max-width: 200px;
+    list-style: none;
+    gap: 15px;
+    /* visibility: hidden; */
+}
+
+#bs:hover {
+    visibility: hidden;
+}
+
+
+/*------------------------------------------------------------------*/
+main {
+    text-align: center;
+}
+main h1 {
+    margin: 60px auto;
+}
+.wrapper {
+    display: flex;
+    gap: 60px 20px;
+    flex-flow: row wrap;
+}
+.card {
+    width: calc(25% - 20px);
+    background-color: #f4f3eb;
+    font-size: 12px;
+    position: relative;
+}
+.card img {
+    width: 100%;
+    position: relative;
+    top: -22px;
+}
+.bottom {
+    padding: 0 24px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    font-size: 90%;
+    justify-content: space-between;
+    text-align: left;
+}
+.card .bottom .price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.card p {
+    margin: 0;
+}
+.card .btn {
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center;     /* по вертикали */
+    height: 40px;
+    line-height: 1.2;
+    background: #4f772d;
+    border: thin solid #4f772d;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.card a, .card a:visited {
+    color: white; 
+    text-decoration: none;
+}
