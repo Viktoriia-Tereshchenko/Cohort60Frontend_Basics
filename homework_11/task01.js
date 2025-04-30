@@ -19,7 +19,7 @@ const house = {
   wallColor: "green",
 };
 
-const { wallColor: wallColorValue, adress: adressValue } = house;
+const { wallColor, adress} = house;
 
-// console.log(wallColorValue);
-// console.log(adressValue);
+// console.log(wallColor);
+// console.log(adress);
