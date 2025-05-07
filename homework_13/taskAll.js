@@ -30,12 +30,12 @@ console.log(newCars);
 
 // Задание 2 --------------------------------------------------------------
 // Создайте новый массив, где оставьте только машины с дизельным двигателем.
-const dieselCars = cars.filter((car) => car.isDiesel === true);
+const dieselCars = cars.filter((car) => car.isDiesel);
 console.log(dieselCars);
 
 // Задание 3 --------------------------------------------------------------
 // Создайте новый массив, где оставьте только машины не с дизельным двигателем.
-const nonDieselCars = cars.filter((car) => car.isDiesel === false);
+const nonDieselCars = cars.filter((car) => !car.isDiesel);
 console.log(nonDieselCars);
 
 // Задание 4--------------------------------------------------------------
