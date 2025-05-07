@@ -63,10 +63,10 @@ console.log(cars);
 // Создайте новый массив, где все дизельные машины заменены на { brand: "Tesla", price: 25000, isDiesel: false }
 
 // вариант 1
-const modernCars = cars.map((car) =>
+const replacedCars = cars.map((car) =>
   car.isDiesel ? { brand: "Tesla", price: 25000, isDiesel: false } : car
 );
-console.log(modernCars);
+console.log(replacedCars);
 
 // вариант 2
 const replacedCars2 = [...cars];
