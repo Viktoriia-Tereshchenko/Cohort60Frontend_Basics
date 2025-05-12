@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>AnimalsList</title>
+  </head>
+  <body>
+    <form id="animal-form">
+      <!-- <span id="email-error"></span> -->
+      <label for="nickname">Кличка животного</label>
+      <input type="text" name="nickname" id="nickname" />
+
+      <label for="age">Возраст</label>
+      <input type="text" name="age" id="age" />
+
+      <label for="breed">Порода</label>
+      <input type="text" name="breed" id="breed" />
+
+      <div class="btn-container">
+        <button type="button" id="reset-btn">Очистить форму</button>
+        <button type="submit" id="submit-btn">
+          Добавить животное в список
+        </button>
+      </div>
+
+      <div class="line"></div>
+
+      <div id="animals-container"></div>
+    </form>
+  </body>
+</html>
