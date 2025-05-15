@@ -1,0 +1,38 @@
+h1 {
+  color: rgb(237, 150, 163);
+  font-style: italic;
+  /* margin: 0; */
+}
+
+h2 {
+  color: rgb(183, 49, 69);
+  text-align: center;
+  /* margin: 15px; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.container div {
+  border: 1px solid rgb(183, 49, 69);
+  background-color: rgb(255, 237, 240);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.354);
+}
+
+.container p {
+  text-align: center;
+  margin: 10px;
+}
+
+.container img {
+  height: 300px;
+}
