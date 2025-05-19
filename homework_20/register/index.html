@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../js/register.js" defer></script>
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="register-form">
+      <h2>Registration</h2>
+      <div id="inputs-container" class="inputs-container">
+        <label for="name"
+          >Name:<input type="text" name="name" placeholder="name"
+        /></label>
+        <label for="email"
+          >Email: <input type="text" name="email" placeholder="email"
+        /></label>
+        <label for="password"
+          >Password:
+          <input type="password" name="password" placeholder="password"
+        /></label>
+        <label for="avatar"
+          >Avatar: <input type="text" name="avatar" placeholder="image URL"
+        /></label>
+      </div>
+      <div class="btn-container">
+        <button type="submit">Add user</button>
+        <button type="button" id="btn-home">Home</button>
+      </div>
+    </form>
+  </body>
+</html>

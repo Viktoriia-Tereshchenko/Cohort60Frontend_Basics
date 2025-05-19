@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../js/create-product.js" defer></script>
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="add-product-form">
+      <h2>Create Product</h2>
+      <div id="inputs-container" class="inputs-container">
+        <label for="title"
+          >Title <input type="text" name="title" placeholder="title"
+        /></label>
+        <label for="description"
+          >Description
+          <input type="text" name="description" placeholder="description"
+        /></label>
+        <label for="price"
+          >Price <input type="text" name="price" placeholder="price"
+        /></label>
+        <label for="image"
+          >Image<input type="text" name="image" placeholder="image URL"
+        /></label>
+      </div>
+      <div class="btn-container">
+        <button type="submit">Add product</button>
+        <button type="button" id="btn-home">Home</button>
+      </div>
+    </form>
+  </body>
+</html>
